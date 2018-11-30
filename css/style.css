@@ -1,0 +1,61 @@
+/* Colours used
+Primary Colour Off White #FEFFEA
+Secondary Colour Blue #467BC4
+Teritary Colour Yellow #F5F749
+Dark Grey #424242
+
+*/
+
+body {
+  background-color:#FEFFEA;
+  font-family: 'Corben', cursive;
+  font-size: 16px;
+  line-height: normal;}
+
+li {
+  color: #467BC4;
+}
+
+h1 {
+    font-size: 28px;
+  }
+
+h2 {
+    font-size: 20px;
+  }
+
+h3 {
+    font-size: 18px;
+  }
+
+a {
+  text-decoration: none;
+  color: #467BC4;
+}
+
+a:hover {
+  color: #424242;
+}
+a:visited {
+  color: Yellow;
+}
+a:active {
+  text-decoration: line-through;
+}
+button {
+border: none;
+font-family: inherit;
+
+background-color: #467BC4;
+color: white !important;
+text-decoration: none;
+padding: 10px;
+border-radius: 2px;
+border: 2px solid #424242;
+}
+
+button:hover,
+button:focus {
+  cursor:crosshair;
+  opacity: 0.8;
+}
