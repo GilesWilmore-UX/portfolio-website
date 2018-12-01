@@ -7,55 +7,60 @@ Dark Grey #424242
 */
 
 body {
-  background-color:#FEFFEA;
+  background-color: #ffffff;
   font-family: 'Corben', cursive;
   font-size: 16px;
-  line-height: normal;}
-
-li {
-  color: #467BC4;
+  line-height: 1.6;
+  color: #000000;
 }
 
 h1 {
     font-size: 28px;
+    font-weight: bold;
   }
 
 h2 {
     font-size: 20px;
+    font-weight: normal;
   }
 
 h3 {
     font-size: 18px;
+    font-weight: normal;
   }
 
 a {
   text-decoration: none;
-  color: #467BC4;
+  color: #000000;
 }
 
-a:hover {
+a:visited {
   color: #424242;
 }
-a:visited {
-  color: Yellow;
+
+a:hover,
+a:focus {
+  color: #424242;
 }
+
 a:active {
   text-decoration: line-through;
 }
-button {
+
+.button {
 border: none;
 font-family: inherit;
 
 background-color: #467BC4;
-color: white !important;
+color: #ffffff !important;
 text-decoration: none;
 padding: 10px;
-border-radius: 2px;
+border-radius: 5px;
 border: 2px solid #424242;
 }
 
-button:hover,
-button:focus {
-  cursor:crosshair;
+.button:hover,
+.button:focus {
+  cursor:pointer;
   opacity: 0.8;
 }
