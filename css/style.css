@@ -7,11 +7,12 @@ Dark Grey #424242
 */
 
 body {
-  background-color: #ffffff; <!-- White -->
-  font-family: 'Corben', cursive;
+
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 3;
   color: #000000; <!-- Black -->
+  background-color: #ffffff; <!-- White -->
 }
 
 h1 {
@@ -31,12 +32,14 @@ h3 {
   }
 
 a {
-  text-decoration: underline;
+
   color: #467BC4; <!-- Blue -->
 }
 
 a:visited {
   color: #ff0025; <!-- Red -->
+  text-decoration: none;
+
 }
 
 a:hover,
@@ -49,10 +52,10 @@ a:active {
   color: #467BC4; <!-- Blue -->
 }
 
+
 img {
 width: 100%;
 }
-
 
 
 .button {
@@ -74,16 +77,10 @@ border: 2px solid #424242;
 }
 
 .logo{
-  max-width: 200px;
-  margin-top: 20px;
+  height: 50px;
+  float:left;
+  width: auto;
 }
-
-/* Layout styling */
-* {
-  box-sizing: border-box;
-}
-
-
 
 .wrapper {
   width: 100%;
@@ -92,6 +89,36 @@ border: 2px solid #424242;
   padding: 0 20px;
 
 }
+
+header {
+  width: 100%;
+  line-height: 1;
+  padding: 10px;
+  display: inline-block;
+
+}
+
+.container {
+  width: 100%;
+  display: inline-block;
+}
+
+.container a {
+  text-align: center;
+}
+
+/* Layout styling */
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  float:right;
+}
+nav a {
+  text-decoration: none;
+}
+
 
 .column-4 {
   width: 24%;
@@ -111,6 +138,7 @@ border: 2px solid #424242;
 .columns-container {
   font-size: 0;
   margin-top: 100px;
+  background: Yellow;
 }
 
 .column-4:last-child {
@@ -126,13 +154,15 @@ border: 2px solid #424242;
 .navigation > li {
   display:inline-block;
   margin-left: 10px;
+  text-decoration: none;
 }
 
 
 @media all and (max-width: 700px) {
 .logo{
   /* Make logo smaller by changing it's height */
-  height: 50px;
+  height: 45px;
+  padding-left: 10px;
 }
 h1 {
   font-size: 24px;
@@ -151,7 +181,7 @@ h1 {
 
 .logo {
   /* Make logo smaller by changing it's height */
-  height: 30px;
+  height: 40px;
 }
 
 h1 {
