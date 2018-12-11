@@ -11,75 +11,84 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   line-height: 3;
-  color: #000000; <!-- Black -->
-  background-color: #ffffff; <!-- White -->
+  color: #000000;
+  background-color: #ffffff;
 }
 
 h1 {
     font-size: 28px;
-    font-weight: bold 700;
+    font-weight: 700;
     text-align: center;
   }
 
 h2 {
     font-size: 20px;
-    font-weight: regular 400;
+    font-weight: 400;
   }
 
 h3 {
     font-size: 18px;
-    font-weight: regular 400;
+    font-weight: 400;
   }
 
 a {
-
-  color: #467BC4; <!-- Blue -->
+  color: #467BC4;
 }
 
 a:visited {
-  color: #ff0025; <!-- Red -->
+  color: #ff0025;
   text-decoration: none;
-
 }
 
 a:hover,
 a:focus {
-  color: #D3D3D3; <!-- Light Grey -->
+  color: #D3D3D3;
 }
 
 a:active {
   text-decoration:none;
-  color: #467BC4; <!-- Blue -->
+  color: #467BC4;
 }
-
 
 img {
 width: 100%;
 }
 
+.content {
+  width: 100%;
+  max-width: 600px;
+  line-height: 1.6;
+  display:flex;
+  flex-flow: wrap column;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .button {
 border: none;
 font-family: inherit;
-
 background-color: #467BC4;
 color: #ffffff !important;
 text-decoration: none;
 padding: 10px;
 border-radius: 5px;
 border: 2px solid #424242;
+text-align: center;
+width: 30%;
+align-self: center;
+transition: 0.3s opacity;
 }
 
 .button:hover,
 .button:focus {
-  cursor:pointer;
   opacity: 0.8;
 }
 
 .logo{
-  height: 50px;
+  width: 100%;
+  max-width: 150px;
   float:left;
-  width: auto;
+
 }
 
 .wrapper {
@@ -87,7 +96,6 @@ border: 2px solid #424242;
   max-width: 1300px;
   margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
   padding: 0 20px;
-
 }
 
 header {
@@ -95,8 +103,8 @@ header {
   line-height: 1;
   padding: 10px;
   display: inline-block;
-
 }
+
 
 .container {
   width: 100%;
@@ -115,10 +123,15 @@ header {
 nav {
   float:right;
 }
+
 nav a {
   text-decoration: none;
 }
 
+p {
+  text-align: left;
+  align-self: center;
+}
 
 .column-4 {
   width: 24%;
@@ -134,7 +147,6 @@ nav a {
   text-align: center;
 }
 
-
 .columns-container {
   font-size: 0;
   margin-top: 100px;
@@ -145,43 +157,147 @@ nav a {
   margin-right: 0;
 }
 
-.navigation {
+ul.navigation {
   list-style-type: none;
   padding: 0;
   float: right;
 }
 
 .navigation > li {
-  display:inline-block;
+  display: inline-block;
   margin-left: 10px;
   text-decoration: none;
 }
 
+li a {
+  text-decoration: none;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+  text-decoration: none;
+   font: 16px Raleway;
+   margin: 10px 10px;
+   padding: 5px 5px;
+   position: relative;
+   z-index: 0;
+   cursor: pointer;
+}
 
+.topBotomBordersOut a:before,
+.topBotomBordersOut a:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #467BC4;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.topBotomBordersOut a:before
+{
+    top: 0px;
+    transform: translateY(10px);
+}
+
+.topBotomBordersOut a:after
+{
+    bottom: 0px;
+    transform: translateY(-10px);
+}
+
+.topBotomBordersOut a:hover:before,
+.topBotomBordersOut a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+@keyframes color-change {
+    0% {fill: #edc655;}
+    50% {fill: #fcffad;}
+    100% {fill: #467BC4;}
+}
+
+.cloudtopleft{
+
+  animation: 3s color-change infinite alternate linear;
+  animation: 5s cloud-spin infinite alternate linear:
+}
+
+@keyframes cloud-move {
+    from {transform: translate(1000px, 1300px);}
+    to {transform: translate(200px, 1300px);}
+}
+
+@keyframes cloud-spin {
+    from {transform: scale(1);}
+    to {transform: scale(10);}
+}
+
+
+
+
+
+.cloudrighttop {
+  animation: 30s cloud-move infinite alternate linear;
+}
+
+/* TABLET */
 @media all and (max-width: 700px) {
 .logo{
   /* Make logo smaller by changing it's height */
-  height: 45px;
-  padding-left: 10px;
+  max-width: 88px;
 }
+
 h1 {
   font-size: 24px;
   text-align: left;
 }
+
 .column-4 {
     /* Modify 4-column to 2-columns */
     width: 49%;
     margin-right: 1%;
   }
+
 .column-4:nth-child(2) {
     margin-right: 0;
   }
 }
+
+/* MOBILE */
 @media all and (max-width: 400px) {
+
+.container {
+  display:flex;
+  flex-flow: wrap column;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.logowrapper {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
 
 .logo {
   /* Make logo smaller by changing it's height */
-  height: 40px;
+  max-width: 100px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -189,13 +305,14 @@ h1 {
   text-align: left;
   margin-top: 10px;
 }
+
 .column-4 {
     /* Modify 4-column to 2-columns */
     width: 100%;
     margin-right: 0;
   }
+
 .columns-container{
   margin-top: 10px;
 }
-
 }
