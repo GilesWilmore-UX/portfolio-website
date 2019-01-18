@@ -570,6 +570,11 @@ h1 {
   .col-1{
     width: 20%;
   }
+  .menu.col-5 {
+    width: 100%;
+    text-align: center;
+    display:block;
+  }
 
 
 
@@ -624,8 +629,9 @@ h1 {
   margin-top: 10px;
 
 }
-.col-5 {
-  width: 10%;
+.menu.col-5 {
+  width: 100%;
+  text-align: center;
 }
 
 
