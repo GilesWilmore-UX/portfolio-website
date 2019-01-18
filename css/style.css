@@ -504,6 +504,7 @@ ul.menu.col-5 {
   .header .menu-icon {
     display:none ;
   }
+  
 }
 
 
@@ -570,11 +571,7 @@ h1 {
   .col-1{
     width: 20%;
   }
-  .menu.col-5 {
-    width: 100%;
-    text-align: center;
-    display:block;
-  }
+
 
 
 
