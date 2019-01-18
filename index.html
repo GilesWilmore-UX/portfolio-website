@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -14,50 +15,44 @@
   <!---header---->
 
 
-  <header class="container">
+  <header class="header">
     <div class="wrapper">
-      <div class="logowrapper col-2 nopad  headline">
+      <div class="col-1 nopad">
         <a href="index.html"><img src="img/logo.svg" class="logo" alt="Giles Wilmore Logo"></a>
       </div>
-
-      <div class="col-5 nopad headline">
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <div class="col-6 nopad headline">
         <p>Giles Wilmore - <span>UX/UI</span> Designer</p>
       </div>
 
+      <ul class="menu col-5">
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="index.html">Work</a></li>
+      </ul>
+    </div>
+  </header>
 
-      <nav class="navbar-menu col-5 nopad">
-        <ul class="navigation topBotomBordersOut menu-listing">
-          <li><a class="active" href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
 
-        </ul>
-      </nav>
-      <div class="menu col-2">
-        <span></span>
+  <div class="container-welcome">
+    <div class="wrapper headline2">
+      <div class="col-6">
+        <h1>SOLVING COMPLEX PROBLEMS WITH CLEAR SIMPLE <span class="buzzword">DESIGN</span></h1>
+        <p class="headline2">Take a look at some of my work below<p>
       </div>
-
-    </header>
+      <div class="col-6">
+        <img src="/Users/giles/Desktop/Portfoliosite/img/wireframe.jpg" alt="stencil">
+      </div>
+    </div>
   </div>
-
-<div class="container-welcome">
-  <div class="wrapper headline2">
-    <div class="col-6">
-    <h1>SOLVING COMPLEX PROBLEMS WITH CLEAR SIMPLE <span class="buzzword">DESIGN</span></h1>
-    <p>let me tell you a bit about balhc kabdjfh djfkds kdjfksl dkfjslk dfjsk dskfjsdkfj sdkfjsdkfj sdkfjskdlfj sdkfjsldkfj sdkfjslkf dkfjslkfj skdfjksd<p>
-  </div>
-  <div class="col-6">
-    <img src="/Users/giles/Desktop/Portfoliosite/img/Workpagedrawing.png">
-  </div>
-  </div>
-</div>
   <div class="wrapper">
     <div class="columns-container">
-      <div class="col-3 project">
+      <div class="col-3 project nopad">
         <div class="project-preview">
           <img src="img/habitfitportfolio.png" alt="HabitFit project">
-          </div>
-          <h2>HabitFit</h2>
+        </div>
+        <h2>HabitFit</h2>
 
 
 
@@ -65,46 +60,47 @@
           <h3>A Fitness web app</h3>
           <h4>UX Design</h4>
           <div class="margin">
-          <a href="" class="button">View Project</a>
-</div>
+            <a href="" class="button">View Project</a>
+          </div>
         </div>
 
       </div>
-      <div class="col-3 project">
+      <div class="col-3 project nopad">
         <div class="project-preview">
-          <img src="img/inktankportfolio.png" alt="InkTank Project" >
+          <img src="img/inktankportfolio.png" alt="InkTank Project">
           <h2> InkTank </h2>
         </div>
         <div class="project-details">
           <h3>A Fitness web app</h3>
           <h4>UX Design</h4>
           <div class="margin">
-          <a href="" class="button">View Project</a>
+            <a href="" class="button">View Project</a>
+          </div>
         </div>
       </div>
-    </div>
-      <div class="col-3 project">
+      <div class="col-3 project nopad">
         <div class="project-preview">
-          <img src="img/morleysportfolio.png" alt="Morleys Project" >
+          <img src="img/morleysportfolio.png" alt="Morleys Project">
           <h2> Morleys </h2>
         </div>
         <div class="project-details">
           <h3>A Fitness web app</h3>
           <h4>UX Design</h4>
           <div class="margin">
-          <a href="" class="button">View Project</a>
+            <a href="" class="button">View Project</a>
+          </div>
         </div>
       </div>
     </div>
-      <div class="col-3 project">
-        <div class="project-preview">
-          <img src="img/vocabyoularyportfolio.png" alt="Work Sample 4" >
-          <h2> VocabYOUlary </h2>
-        </div>
-        <div class="project-details">
-          <h3>A Fitness web app</h3>
-          <h4>UX Design</h4>
-          <div class="margin">
+    <div class="col-3 project nopad">
+      <div class="project-preview">
+        <img src="img/vocabyoularyportfolio.png" alt="Work Sample 4">
+        <h2> VocabYOUlary </h2>
+      </div>
+      <div class="project-details">
+        <h3>A Fitness web app</h3>
+        <h4>UX Design</h4>
+        <div class="margin">
           <a href="" class="button">View Project</a>
 
         </div>
@@ -115,5 +111,7 @@
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/script.js"></script>
+  <link rel="stylesheet" href="SlickNav/slicknav.css">
 </body>
+
 </html>
