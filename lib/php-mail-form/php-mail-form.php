@@ -61,7 +61,7 @@ class PHP_Mail_Form {
     $mailer = filter_var( $this->mailer, FILTER_VALIDATE_EMAIL);
     $message = nl2br($this->message);
 
-    if( ! $to || $to == 'contact@example.com') $this->error .= $this->error_msg['invalid_to_email'] . '<br>';
+    if( ! $to || $to == 'gileswilmore.ux@gmail.com') $this->error .= $this->error_msg['invalid_to_email'] . '<br>';
     if( ! $from_name ) $this->error .= $this->error_msg['invalid_from_name'] . '<br>';
     if( ! $from_email ) $this->error .= $this->error_msg['invalid_from_email'] . '<br>';
     if( ! $subject ) $this->error .= $this->error_msg['invalid_subject'] . '<br>';
