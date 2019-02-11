@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="192px" viewBox="0 0 40 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>micron</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Illo_Exploration" transform="translate(-553.000000, -541.000000)">
+            <g id="Group" transform="translate(270.000000, 227.000000)">
+                <g id="micron" transform="translate(284.000000, 316.000000)">
+                    <path d="M8.6,11 L1.6,11.6 C1,11.6 0.6,12.1 0.7,12.7 L4,50.7 C4.2,52.9 6.1,54.4 8.3,54.2 L23.3,52.9" id="XMLID_24_" stroke="#1485E0" stroke-width="2" fill="#FFFFFF"></path>
+                    <path d="M9.5,44.1 L21.4,180.5 C21.4,181.1 21.9,181.5 22.4,181.5 L23.5,181.4 L23.9,186.4 C23.9,187 24.4,187.4 25,187.3 L34,186.5 C34.6,186.5 35,185.9 34.9,185.4 L34.5,180.4 L35.4,180.3 C36,180.3 36.4,179.7 36.4,179.2 L24.5,42.8 L9.5,44.1 L9.5,44.1 Z" id="XMLID_22_" stroke="#1485E0" stroke-width="4" fill="#C4E1F7"></path>
+                    <path d="M10.3,54 L5.8,2.2 C5.8,1.6 6.1,1.2 6.7,1.1 L19.7,0 C20.3,0 20.8,0.3 20.8,0.9 L25.3,52.7" id="XMLID_21_" stroke="#1485E0" stroke-width="4" fill="#C4E1F7"></path>
+                    <path d="M11.3,54 L24.3,52.8" id="XMLID_20_" stroke="#1485E0" stroke-width="2"></path>
+                    <path d="M7.4,9.1 L20.4,8" id="XMLID_19_" stroke="#1485E0" stroke-width="2"></path>
+                    <rect id="XMLID_18_" fill="#FFFFFF" transform="translate(13.605156, 5.100688) rotate(-4.999973) translate(-13.605156, -5.100688) " x="8.10512743" y="2.60067433" width="11.0000581" height="5.00002641"></rect>
+                    <rect id="XMLID_17_" fill="#1485E0" transform="translate(28.902440, 179.901365) rotate(-4.999973) translate(-28.902440, -179.901365) " x="25.4024213" y="178.901359" width="7.00003697" height="2.00001056"></rect>
+                    <rect id="XMLID_16_" fill="#FFFFFF" transform="translate(29.103647, 182.906734) rotate(-4.999973) translate(-29.103647, -182.906734) " x="25.6036286" y="180.906723" width="7.00003697" height="4.00002113"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
